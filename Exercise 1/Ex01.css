@@ -1,0 +1,42 @@
+.Link-container{
+ 
+ display : flex;
+ flex-direction : row;
+ 
+}
+
+.center {
+	left :50%;
+	margin: auto;
+	
+  
+  padding: 10px;
+}
+img{
+	width : 20%;
+	height : 200px;
+	margin: 2%;
+}
+input{
+	height : 30px;
+	
+}
+.bg-blue{
+	background-color : blue;
+}
+.Form-center{
+	margin: auto;
+	left : 50%;
+  
+	padding: 10px;
+}
+.btn{
+	background-color : red;
+	
+}
+.bg-white{
+	background-color : white;
+}
+.margin-2{
+	margin : 4px;
+}
