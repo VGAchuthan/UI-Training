@@ -1,0 +1,20 @@
+.nav-inline{
+	display : inline;
+	margin : 10px;
+}
+.nav-inline li{
+	display : inline-block;
+	font-size : 20px;
+}
+.center{
+	margin : auto;
+	width : 10%;
+}
+.header{
+	font-size: 10px;
+	
+}
+.captions{
+	font-size : 6.5px;
+	text-align : justify;
+}
