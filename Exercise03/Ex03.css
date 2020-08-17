@@ -1,0 +1,23 @@
+.Header{
+	font-size:20px;
+}
+.Bg-gray{
+	background-color : #F0F3F4;
+}
+.Center{
+	margin : auto;
+	width : 50; 
+	
+}
+.Navbar{
+	display : inline;
+	list-style-type:none;
+	margin : auto;
+	width : 40%;
+	
+}
+.Navbar li{
+	display : inline-block;
+	text-align : center;
+	
+}
