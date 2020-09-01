@@ -1,23 +1,102 @@
+body{
+	padding: 0px;
+	margin : 0px;
+}
 .Header{
 	font-size:20px;
+	font-weight : bolder;
 }
 .Bg-gray{
 	background-color : #F0F3F4;
 }
-.Center{
-	margin : auto;
-	width : 50; 
-	
+.Bg-white{
+	background-color : white;
+}
+.Text-center{
+	text-align : center;
+}
+.Text-uppercase{
+	text-transform : uppercase;
+}
+.Text-justify{
+	text-align : justify;
+}
+.Text-yellow{
+	color : yellow;
+}
+.Text-white{
+	color : white;
+}
+.Image-cover{
+	width : 100%;
+	height : 200px;
+}
+.Image-card{
+	width : 30%;
+	margin : 0px 10px;
+}
+.Image-top{
+	width : 300px;
+	height : 100px;
+}
+.Text-Header{
+	font-size : 32%;
+	font-weight : bold;
+}
+.Captions{
+	font-size : 20%;
 }
 .Navbar{
 	display : inline;
 	list-style-type:none;
 	margin : auto;
 	width : 40%;
-	
+	text-align : center;
 }
 .Navbar li{
 	display : inline-block;
-	text-align : center;
+	margin : 0px 10px;
+}
+.Desc{
 	
+}
+.Desc div{
+	margin : 0px auto;
+	width : 80%;
+}
+.Image-gallery{
+	display : inline;
+	margin : 30px auto;
+	
+	
+}
+.Image-wrapper{
+	width : 980px;
+	margin : 30px auto;
+}
+.Image-card{
+	width : 300px;
+	display : inline-block;
+	
+	
+}
+div.Image-card img{
+	width : 100%;
+	height : 200px;
+}
+.Footer{
+	display : inline;
+}
+.Footer > div{
+	display: inline-block;
+}
+.About-us{
+	display : inline-block;
+	margin : 20px 1% 20px 22% ;
+	width : 25%;
+}
+.What-we-do{
+	display : inline-block;
+	margin : 20px 10% 20px 7.5% ;
+	width : 25%;
 }
