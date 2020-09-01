@@ -5,11 +5,15 @@
 .Bg-light-green{
 	background-color : 	#bfff00;
 }
+.Bg-white{
+	background-color : red;
+}
 .Form-header{
 	text-align : center;
 	background-color : blue;
 	font-size : 20px;
 	color : white;
+	height : 25px;
 }
 .Background-text{
 	text-align: justify;
@@ -25,9 +29,49 @@
 	top : 50%;
 	left : 50%;
 	width: 40%;
-	height : 200px;
+	height : 170px;
 	z-index : 1;
 	background-color : black;
 	position : fixed;
 	transform : translate(-50%, -50%);
+}
+.Form-wrapper{
+	display : relative;
+	height : 170px;
+	background-color : red;
+}
+.Label-wrapper{
+	text-align : left;
+	height: 20px;
+}
+.Input-wrapper{
+	width : 100%;
+	height : 25px;
+}
+.Element-wrapper{
+	padding : 3px 2px 3px 2px;
+}
+.Element-wrapper > .Input-wrapper, .Label-wrapper{
+	display:block;
+}
+.Form-inline{
+	display : inline;
+}
+.Form-inline > .Element-wrapper{
+	display : inline-block;
+	width : 48%;
+	padding : 3px 2px 3px 2px;
+}
+.Search-button{
+	float : right;
+	height : 25px;
+	width : 50px;
+	background-color : white;
+	position : absolute;
+	clear : both;
+	
+}
+.right-float{
+	float : right;
+	transform : translate(-50px, 0px );
 }

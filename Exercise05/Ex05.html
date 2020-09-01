@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="Ex05.css">
 </head>
 <body>
-<!-----------------------------------------------BACKGROUND TEXT  : START -->	
+<!-----------------------------------------------BACKGROUND TEXT  : START ------------------------------------>	
 	<div class="Background-text">
 		<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
 
@@ -124,15 +124,35 @@ The purpose of lorem ipsum is to create a natural looking block of text (sentenc
 
 The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.</p>
 	</div>
-<!-----------------------------------------------BACKGROUND TEXT  : END -->	
+<!-----------------------------------------------BACKGROUND TEXT  : END ------------------------------------>	
 
-<!-----------------------------------------------DIALOG  : START -->
+<!-----------------------------------------------DIALOG  : START ------------------------------------>
 	<div class="Form-dialog">
-		<div class="Form-header">
-			<p>achu</p>
+		<div class="Form-wrapper"><!-- Form Wrapper  : starts -->
+			<div class="Form-header"><!-- Form Header  : starts -->
+				<p>achu</p>
+			</div><!-- Form Header  : ends -->
+			<div class="Element-wrapper Bg-light-green"><!-- Location element  : starts -->
+				<label class ="Label-wrapper" id="lbl_location" name="lbl_location">Location :</label>
+				<input class="Input-wrapper" type="text" id="txt_location" name="txt_location" value="Chennai"/>
+			</div><!-- Location element  : ends -->
+			<div class="Form-inline">
+				<div class="Element-wrapper Bg-light-green"><!-- start date element  : starts -->
+					<label class ="Label-wrapper" id="lbl_start_date" name="lbl_start_date">Start Date :</label>
+					<input class="Input-wrapper" type="date" id="txt_start_date" name="txt_start_date" />
+				</div><!-- start date element  : end -->
+				<div class="Element-wrapper Bg-light-green"><!-- end date element  : starts -->
+					<label class ="Label-wrapper" id="lbl_end_date" name="lbl_end_date">End Date :</label>
+					<input class="Input-wrapper" type="date" id="txt_end_date" name="txt_end_date" />
+				</div> <!-- end date element  : end -->
+			</div>
+			
+		</div><!-- Form Wrapper  : ends -->
+		<div class="right-float">
+		<input class="Search-button" type="button" id="btn_search" name="btn_search" value="Search"/>
 		</div>
-	
 	</div>
+<!-----------------------------------------------DIALOG  : END ------------------------------------>
 	
 
 
