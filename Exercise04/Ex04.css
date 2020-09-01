@@ -1,0 +1,48 @@
+body{
+	margin : 0px;
+	padding : 0px;
+}
+.Header{
+	text-align : center;
+	
+}
+h1{
+	margin : 1px;
+}
+.Navbar{
+	display : block;
+	width : 100%;
+	height : 50px;
+	background-color : blue;
+	
+}
+.Navbar-wrapper{
+	display : inline;
+	margin : 0px auto;
+	
+}
+.Navbar-menu{
+	position : relative;
+	color: yellow;
+	font-size : 100%;
+	margin :  15px 10px;
+}
+.Navbar-wrapper  div.Navbar-menu{
+	display : inline-block;
+}
+.Dropdown-content{
+	display : none;
+	position : absolute;
+	list-style : none;
+	z-index : 1;
+	background-color : green;
+	padding : 2px 3px;
+	width : 280px;
+	text-align : left;
+}
+.Dropdown-content li{
+	margin : 25px 20px;
+}
+.Navbar-menu:hover  .Dropdown-content{
+	display : block;
+}
