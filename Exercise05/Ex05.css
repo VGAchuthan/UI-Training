@@ -1,12 +1,17 @@
 *{
 	padding : 0px;
 	margin : 0px;
+	
 }
 .Bg-light-green{
 	background-color : 	#bfff00;
 }
+.
 .Bg-white{
 	background-color : red;
+}
+.Bg-gray{
+	background-color : #fdfdfd;
 }
 .Form-header{
 	text-align : center;
@@ -37,19 +42,22 @@
 }
 .Form-wrapper{
 	display : relative;
-	height : 170px;
-	background-color : red;
+	height : 210px;
+	background-color : #1affff;
 }
 .Label-wrapper{
 	text-align : left;
 	height: 20px;
+	width : 100%;
+	margin : 5px;
 }
 .Input-wrapper{
 	width : 100%;
 	height : 25px;
 }
 .Element-wrapper{
-	padding : 3px 2px 3px 2px;
+	margin : 5px;
+	padding : 5px 5px 5px 0px;
 }
 .Element-wrapper > .Input-wrapper, .Label-wrapper{
 	display:block;
@@ -57,21 +65,25 @@
 .Form-inline{
 	display : inline;
 }
-.Form-inline > .Element-wrapper{
+.Form-inline  .Element-wrapper{
 	display : inline-block;
-	width : 48%;
-	padding : 3px 2px 3px 2px;
+	width : 43%;
+	margin : 5px 20px 5px 10px;
+	padding : 5px 5px 0px 0px;
 }
 .Search-button{
 	float : right;
-	height : 25px;
-	width : 50px;
-	background-color : white;
+	height : 35px;
+	width : 150px;
+	background-color : #f2f2f2;
 	position : absolute;
 	clear : both;
 	
 }
 .right-float{
 	float : right;
-	transform : translate(-50px, 0px );
+	transform : translate(-150px, 0px );
+}
+.Row-wrapper{
+	margin : 10px;
 }
