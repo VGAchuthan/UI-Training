@@ -15,19 +15,46 @@
 .vertical-center{
 	top : 50%;
 	left : 0%;
-	transform : translate(0%, 50%);
+	padding : 8px 0px;
 }
 .header{
 	width : 100%;
 	height : 50px;
+	font-size : 30px;
+	
 }
 .footer{
 	top : 100%;
 	left : 0%;
 	width : 100%;
-	height : 35px;
-	
+	height : 36px;
+	font-size : 24px;
 	position : fixed;
 	font-weight : bold;
+	padding : 6px 0px;
 	transform : translate(0px, -35px);
 }
+.card-header{
+	height : 40px;
+	padding : 10px 0px 10px 5px;
+}
+.wrapper{
+	margin : 25px 10%;
+	/*display : inline;*/
+	
+}
+
+.col-wrapper:nth-child(odd){
+	width : 60%;
+	background-color : green;
+	margin-right : 30px;
+}
+.col-wrapper:nth-child(even){
+	width : 30%;
+	background-color : yellow;
+	margin-left : 30px;
+}
+.wrapper > .col-wrapper{
+	display : inline-block;
+}
+.
